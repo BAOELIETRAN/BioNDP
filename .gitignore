@@ -1,0 +1,13 @@
+# Large data: downloaded or regenerated, never commit
+data/
+results/*.txt
+results/*.paf
+results/*.log
+
+# Third-party tool (cloned + built locally; track our changes as a patch instead)
+tools/
+
+# Build/OS junk
+__pycache__/
+*.pyc
+.DS_Store
